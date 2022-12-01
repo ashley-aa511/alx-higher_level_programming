@@ -1,0 +1,1 @@
+We are going to deep dive in python language.
