@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+def add_integer(a, b):
+    """Return addition of two numbers"""
+    
+    #Check if a is an integer or float
+    if not isinstance(a, (int, float)):
+        raise TypeError("a must be an integer")
+
+    #Check if b is an integer or float
+    if not isinstance(b, (int, float)):
+        raise TypeError("b must be an integer")
+
+    #Cast a and b to integers if they are floats
+    if type(a) is float:
+    a = int(a)
+    if type(b) is float:
+    b = int(b)
+
+    #Return the sum of a and b
+    return a + b
