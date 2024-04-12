@@ -3,6 +3,6 @@
 
 const isFun = 'C is fun';
 const isCool = 'Python is cool';
-const isAmaizing = 'Javascript is amazing';
+const isAmaizing = 'JavaScript is amazing';
 
 console.log(isFun + '\n' + isCool + '\n' + isAmaizing);
